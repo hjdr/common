@@ -10,3 +10,5 @@ const colour: Colour = {
 
 
 console.log(colour);
+
+export default colour
