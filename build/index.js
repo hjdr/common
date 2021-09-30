@@ -10,7 +10,6 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// test comment
 __exportStar(require("./errors/bad-request-error"), exports);
 __exportStar(require("./errors/custom-error"), exports);
 __exportStar(require("./errors/database-connection-error"), exports);
@@ -23,6 +22,8 @@ __exportStar(require("./events/subjects"), exports);
 __exportStar(require("./events/ticket-created-event"), exports);
 __exportStar(require("./events/ticket-updated-event"), exports);
 __exportStar(require("./events/types/order-status"), exports);
+__exportStar(require("./events/order-created-event"), exports);
+__exportStar(require("./events/order-cancelled-event"), exports);
 __exportStar(require("./middlewares/current-user"), exports);
 __exportStar(require("./middlewares/error-handler"), exports);
 __exportStar(require("./middlewares/require-auth"), exports);
