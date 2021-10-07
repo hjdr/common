@@ -6,6 +6,7 @@ export interface OrderCancelledEvent {
     ticket: {
       id: string;
     },
+    version: number;
   },
   subject: Subjects.OrderCancelled,
 }
