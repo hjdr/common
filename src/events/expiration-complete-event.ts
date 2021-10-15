@@ -1,6 +1,6 @@
 import { Subjects } from './subjects';
 
-export interface expirationCompleteEvent {
+export interface ExpirationCompleteEvent {
   data: {
     orderId: string,
   },
